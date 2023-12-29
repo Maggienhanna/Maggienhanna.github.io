@@ -1,0 +1,19 @@
+<footer class="site-footer">
+  <div class="container footer-container">
+    <div class="footer left column one-half-left">
+      <section class="small-font">
+        © 2024 by <a href="https://www.instagram.com/baek_ha.aaaaaaaaa/">Baek Ha</a>
+      </section>
+    </div>
+
+    <div class="footer right column one-half-right">
+      <section class="small-font">
+        <a href="https://www.instagram.com/baek_ha.aaaaaaaaa">https://www.instagram.com/baek_ha.aaaaaaaaa</a>
+        {% if site.instagram_username %}
+        {% include icon-instagram.html username=site.instagram_username %}
+        {% endif %}
+        <a href="mailto:baek.ha.maggie@gmail.com">baek.ha.maggie@gmail.com</a>
+      </section>
+    </div>
+  </div>
+</footer>
